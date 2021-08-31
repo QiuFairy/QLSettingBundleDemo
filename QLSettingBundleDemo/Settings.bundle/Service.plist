@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Settings，选择之后请杀进程</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Category</string>
+			<key>Key</key>
+			<string>kMPSelectedEnvironment</string>
+			<key>DefaultValue</key>
+			<string>UAT</string>
+			<key>Titles</key>
+			<array>
+				<string>Customizing</string>
+				<string>UAT</string>
+				<string>Sit</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Customizing</string>
+				<string>UAT</string>
+				<string>Sit</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>Customizing</string>
+			<key>Key</key>
+			<string></string>
+			<key>File</key>
+			<string>Custom</string>
+		</dict>
+	</array>
+</dict>
+</plist>
